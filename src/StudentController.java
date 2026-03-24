@@ -1,6 +1,6 @@
 public class StudentController{
 
  public void Controlle(){
-    //TO DO
+    System.out.println("Yakeli no te ama")
  }
 }
