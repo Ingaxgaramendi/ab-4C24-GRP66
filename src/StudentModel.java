@@ -32,4 +32,13 @@ class Student {
     public void setGrade(String grade) {
         this.grade = grade;
     }
+
+    public void displayInfo() {
+        System.out.println("Nombre: " + name);
+        System.out.println("Edad: " + age);
+        System.out.println("Grado: " + grade);
+    }
+    public void estudiar() {
+        System.out.println(name + " está estudiando.");
+    }
 }
